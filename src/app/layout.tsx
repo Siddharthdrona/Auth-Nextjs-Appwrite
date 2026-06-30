@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Auth Next.js Appwrite",
+  title: "Authentication App",
   description: "Authentication with Next.js + Appwrite",
 };
 

@@ -33,7 +33,7 @@ const Login = () => {
       <div className={`mx-auto w-full max-w-lg bg-gray-200/50 rounded-xl p-10`}>
         <div className="mb-2 flex justify-center">
           <span className="inline-block w-full max-w-15">
-            <Image src="/favicon.ico" alt="Logo" />
+            <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
           </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight text-black">
@@ -98,10 +98,10 @@ const Login = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="flex justify-center w-full ">
               <button
                 type="submit"
-                className="inline-flex w-full items-center justify-center rounded-md bg-primary px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-primary/80"
+                className="border items-center justify-center rounded-md bg-primary px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-primary/80"
               >
                 Sign in
               </button>
