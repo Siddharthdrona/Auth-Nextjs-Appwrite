@@ -21,3 +21,5 @@ const Blog: React.FC<Props> = ({ blur = false }) => {
     </span>
   );
 };
+
+export default Blog;
